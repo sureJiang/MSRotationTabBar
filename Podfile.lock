@@ -1,0 +1,16 @@
+PODS:
+  - MSBlockButton (1.0.0)
+
+DEPENDENCIES:
+  - MSBlockButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MSBlockButton
+
+SPEC CHECKSUMS:
+  MSBlockButton: 82586bc44af34f329d1642b277186a17d3899b42
+
+PODFILE CHECKSUM: 39865b5e12889968ed3da3e1f87761515a19a715
+
+COCOAPODS: 1.5.3
