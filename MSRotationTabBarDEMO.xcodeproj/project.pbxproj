@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1C8F402158C6A9005EF24B /* tabbar_0_night_H_24x24_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F2B2158C6A9005EF24B /* tabbar_0_night_H_24x24_@3x.png */; };
+		0E1C8F412158C6A9005EF24B /* tabbar_select_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F2C2158C6A9005EF24B /* tabbar_select_2@3x.png */; };
+		0E1C8F422158C6A9005EF24B /* tabbar_unselect_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F2D2158C6A9005EF24B /* tabbar_unselect_1@2x.png */; };
+		0E1C8F432158C6A9005EF24B /* tabbar_unselect_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F2E2158C6A9005EF24B /* tabbar_unselect_3@3x.png */; };
+		0E1C8F442158C6A9005EF24B /* tabbar_unselect_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F2F2158C6A9005EF24B /* tabbar_unselect_3@2x.png */; };
+		0E1C8F452158C6A9005EF24B /* tabbar_unselect_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F302158C6A9005EF24B /* tabbar_unselect_1@3x.png */; };
+		0E1C8F462158C6A9005EF24B /* tabbar_select_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F312158C6A9005EF24B /* tabbar_select_2@2x.png */; };
+		0E1C8F472158C6A9005EF24B /* tabbar_0_night_H_24x24_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F322158C6A9005EF24B /* tabbar_0_night_H_24x24_@2x.png */; };
+		0E1C8F482158C6A9005EF24B /* tabbar_0_day_N_24x24_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F332158C6A9005EF24B /* tabbar_0_day_N_24x24_@2x.png */; };
+		0E1C8F492158C6A9005EF24B /* tabbar_select_4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F342158C6A9005EF24B /* tabbar_select_4@3x.png */; };
+		0E1C8F4A2158C6A9005EF24B /* tabbar_select_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F352158C6A9005EF24B /* tabbar_select_4@2x.png */; };
+		0E1C8F4B2158C6A9005EF24B /* tabbar_0_day_N_24x24_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F362158C6A9005EF24B /* tabbar_0_day_N_24x24_@3x.png */; };
+		0E1C8F4C2158C6A9005EF24B /* tabbar_unselect_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F372158C6A9005EF24B /* tabbar_unselect_2@3x.png */; };
+		0E1C8F4D2158C6A9005EF24B /* tabbar_select_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F382158C6A9005EF24B /* tabbar_select_1@2x.png */; };
+		0E1C8F4E2158C6A9005EF24B /* tabbar_select_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F392158C6A9005EF24B /* tabbar_select_3@3x.png */; };
+		0E1C8F4F2158C6A9005EF24B /* tabbar_select_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F3A2158C6A9005EF24B /* tabbar_select_3@2x.png */; };
+		0E1C8F502158C6A9005EF24B /* tabbar_select_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F3B2158C6A9005EF24B /* tabbar_select_1@3x.png */; };
+		0E1C8F512158C6A9005EF24B /* tabbar_unselect_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F3C2158C6A9005EF24B /* tabbar_unselect_2@2x.png */; };
+		0E1C8F522158C6A9005EF24B /* tabbar_unselect_4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F3D2158C6A9005EF24B /* tabbar_unselect_4@3x.png */; };
+		0E1C8F532158C6A9005EF24B /* tabbar_unselect_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F3E2158C6A9005EF24B /* tabbar_unselect_4@2x.png */; };
+		0E1C8F542158C6A9005EF24B /* 44.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F3F2158C6A9005EF24B /* 44.png */; };
+		0E1C8F702158C917005EF24B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C8F6F2158C917005EF24B /* Assets.xcassets */; };
+		0E1C8F712158CB35005EF24B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C8F182158C687005EF24B /* ViewController.m */; };
+		0E1C8F722158CB35005EF24B /* MSTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C8F682158C71E005EF24B /* MSTabbarViewController.m */; };
+		0E1C8F732158CB35005EF24B /* CenterPresentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C8F642158C719005EF24B /* CenterPresentController.m */; };
+		0E1C8F742158CB35005EF24B /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C8F572158C6FF005EF24B /* Item.m */; };
+		0E1C8F752158CB35005EF24B /* Tabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C8F592158C6FF005EF24B /* Tabbar.m */; };
+		0E1C8F762158CB35005EF24B /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C8F5E2158C707005EF24B /* Tool.m */; };
+		0E1C8F772158CB35005EF24B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C8F632158C707005EF24B /* UIView+Extension.m */; };
+		0E1C8F782158CB35005EF24B /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C8F602158C707005EF24B /* UIViewController+Extension.m */; };
+		0E1C8F792158CB35005EF24B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C8F152158C687005EF24B /* AppDelegate.m */; };
+		0E1C8F7A2158CB35005EF24B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C8F232158C687005EF24B /* main.m */; };
+                0EB5436124896B7C001F8951 /* MSTabbarDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5436024896B7C001F8951 /* MSTabbarDataManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E1C8F112158C687005EF24B /* MSRotationTabBarDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSRotationTabBarDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1C8F142158C687005EF24B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E1C8F152158C687005EF24B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E1C8F172158C687005EF24B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0E1C8F182158C687005EF24B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E1C8F222158C687005EF24B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E1C8F232158C687005EF24B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E1C8F2B2158C6A9005EF24B /* tabbar_0_night_H_24x24_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_0_night_H_24x24_@3x.png"; sourceTree = "<group>"; };
+		0E1C8F2C2158C6A9005EF24B /* tabbar_select_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_select_2@3x.png"; sourceTree = "<group>"; };
+		0E1C8F2D2158C6A9005EF24B /* tabbar_unselect_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_unselect_1@2x.png"; sourceTree = "<group>"; };
+		0E1C8F2E2158C6A9005EF24B /* tabbar_unselect_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_unselect_3@3x.png"; sourceTree = "<group>"; };
+		0E1C8F2F2158C6A9005EF24B /* tabbar_unselect_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_unselect_3@2x.png"; sourceTree = "<group>"; };
+		0E1C8F302158C6A9005EF24B /* tabbar_unselect_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_unselect_1@3x.png"; sourceTree = "<group>"; };
+		0E1C8F312158C6A9005EF24B /* tabbar_select_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_select_2@2x.png"; sourceTree = "<group>"; };
+		0E1C8F322158C6A9005EF24B /* tabbar_0_night_H_24x24_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_0_night_H_24x24_@2x.png"; sourceTree = "<group>"; };
+		0E1C8F332158C6A9005EF24B /* tabbar_0_day_N_24x24_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_0_day_N_24x24_@2x.png"; sourceTree = "<group>"; };
+		0E1C8F342158C6A9005EF24B /* tabbar_select_4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_select_4@3x.png"; sourceTree = "<group>"; };
+		0E1C8F352158C6A9005EF24B /* tabbar_select_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_select_4@2x.png"; sourceTree = "<group>"; };
+		0E1C8F362158C6A9005EF24B /* tabbar_0_day_N_24x24_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_0_day_N_24x24_@3x.png"; sourceTree = "<group>"; };
+		0E1C8F372158C6A9005EF24B /* tabbar_unselect_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_unselect_2@3x.png"; sourceTree = "<group>"; };
+		0E1C8F382158C6A9005EF24B /* tabbar_select_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_select_1@2x.png"; sourceTree = "<group>"; };
+		0E1C8F392158C6A9005EF24B /* tabbar_select_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_select_3@3x.png"; sourceTree = "<group>"; };
+		0E1C8F3A2158C6A9005EF24B /* tabbar_select_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_select_3@2x.png"; sourceTree = "<group>"; };
+		0E1C8F3B2158C6A9005EF24B /* tabbar_select_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_select_1@3x.png"; sourceTree = "<group>"; };
+		0E1C8F3C2158C6A9005EF24B /* tabbar_unselect_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_unselect_2@2x.png"; sourceTree = "<group>"; };
+		0E1C8F3D2158C6A9005EF24B /* tabbar_unselect_4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_unselect_4@3x.png"; sourceTree = "<group>"; };
+		0E1C8F3E2158C6A9005EF24B /* tabbar_unselect_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_unselect_4@2x.png"; sourceTree = "<group>"; };
+		0E1C8F3F2158C6A9005EF24B /* 44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44.png; sourceTree = "<group>"; };
+		0E1C8F572158C6FF005EF24B /* Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		0E1C8F582158C6FF005EF24B /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		0E1C8F592158C6FF005EF24B /* Tabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tabbar.m; sourceTree = "<group>"; };
+		0E1C8F5A2158C6FF005EF24B /* Tabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tabbar.h; sourceTree = "<group>"; };
+		0E1C8F5E2158C707005EF24B /* Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		0E1C8F5F2158C707005EF24B /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		0E1C8F602158C707005EF24B /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		0E1C8F612158C707005EF24B /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		0E1C8F622158C707005EF24B /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		0E1C8F632158C707005EF24B /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		0E1C8F642158C719005EF24B /* CenterPresentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterPresentController.m; sourceTree = "<group>"; };
+		0E1C8F652158C719005EF24B /* CenterPresentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterPresentController.h; sourceTree = "<group>"; };
+		0E1C8F672158C71E005EF24B /* MSTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTabbarViewController.h; sourceTree = "<group>"; };
+		0E1C8F682158C71E005EF24B /* MSTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTabbarViewController.m; sourceTree = "<group>"; };
+		0E1C8F6A2158C74A005EF24B /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		0E1C8F6D2158C74B005EF24B /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0E1C8F6F2158C917005EF24B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EB5435F24896B7C001F8951 /* MSTabbarDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTabbarDataManager.h; sourceTree = "<group>"; };
+	        0EB5436024896B7C001F8951 /* MSTabbarDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTabbarDataManager.m; sourceTree = "<group>"; };
+		58D29B5723145A29DD45A480 /* libPods-MSRotationTabBarDEMO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSRotationTabBarDEMO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9958E23CD8D1E4823B33FA7 /* Pods-MSRotationTabBarDEMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSRotationTabBarDEMO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSRotationTabBarDEMO/Pods-MSRotationTabBarDEMO.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2B0699262E4E4B56C26C36 /* Pods-MSRotationTabBarDEMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSRotationTabBarDEMO.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSRotationTabBarDEMO/Pods-MSRotationTabBarDEMO.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E1C8F0E2158C687005EF24B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D26EE40170000805D1E7F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9958E23CD8D1E4823B33FA7 /* Pods-MSRotationTabBarDEMO.debug.xcconfig */,
+				FF2B0699262E4E4B56C26C36 /* Pods-MSRotationTabBarDEMO.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0E1C8F082158C687005EF24B = {
+			isa = PBXGroup;
+			children = (
+				0E1C8F132158C687005EF24B /* MSRotationTabBarDEMO */,
+			);
+			sourceTree = "<group>";
+		};
+		0E1C8F122158C687005EF24B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C8F112158C687005EF24B /* MSRotationTabBarDEMO.app */,
+			);
+			name = Products;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0E1C8F132158C687005EF24B /* MSRotationTabBarDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C8F172158C687005EF24B /* ViewController.h */,
+				0E1C8F182158C687005EF24B /* ViewController.m */,
+				0E1C8F562158C6D7005EF24B /* MSRotationTabBar */,
+				0E1C8F552158C6B1005EF24B /* Other */,
+				0E1C8F232158C687005EF24B /* main.m */,
+			);
+			path = MSRotationTabBarDEMO;
+			sourceTree = "<group>";
+		};
+		0E1C8F2A2158C6A9005EF24B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C8F2B2158C6A9005EF24B /* tabbar_0_night_H_24x24_@3x.png */,
+				0E1C8F2C2158C6A9005EF24B /* tabbar_select_2@3x.png */,
+				0E1C8F2D2158C6A9005EF24B /* tabbar_unselect_1@2x.png */,
+				0E1C8F2E2158C6A9005EF24B /* tabbar_unselect_3@3x.png */,
+				0E1C8F2F2158C6A9005EF24B /* tabbar_unselect_3@2x.png */,
+				0E1C8F302158C6A9005EF24B /* tabbar_unselect_1@3x.png */,
+				0E1C8F312158C6A9005EF24B /* tabbar_select_2@2x.png */,
+				0E1C8F322158C6A9005EF24B /* tabbar_0_night_H_24x24_@2x.png */,
+				0E1C8F332158C6A9005EF24B /* tabbar_0_day_N_24x24_@2x.png */,
+				0E1C8F342158C6A9005EF24B /* tabbar_select_4@3x.png */,
+				0E1C8F352158C6A9005EF24B /* tabbar_select_4@2x.png */,
+				0E1C8F362158C6A9005EF24B /* tabbar_0_day_N_24x24_@3x.png */,
+				0E1C8F372158C6A9005EF24B /* tabbar_unselect_2@3x.png */,
+				0E1C8F382158C6A9005EF24B /* tabbar_select_1@2x.png */,
+				0E1C8F392158C6A9005EF24B /* tabbar_select_3@3x.png */,
+				0E1C8F3A2158C6A9005EF24B /* tabbar_select_3@2x.png */,
+				0E1C8F3B2158C6A9005EF24B /* tabbar_select_1@3x.png */,
+				0E1C8F3C2158C6A9005EF24B /* tabbar_unselect_2@2x.png */,
+				0E1C8F3D2158C6A9005EF24B /* tabbar_unselect_4@3x.png */,
+				0E1C8F3E2158C6A9005EF24B /* tabbar_unselect_4@2x.png */,
+				0E1C8F3F2158C6A9005EF24B /* 44.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0E1C8F552158C6B1005EF24B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C8F6F2158C917005EF24B /* Assets.xcassets */,
+				0E1C8F142158C687005EF24B /* AppDelegate.h */,
+				0E1C8F152158C687005EF24B /* AppDelegate.m */,
+				0E1C8F222158C687005EF24B /* Info.plist */,
+				0E1C8F122158C687005EF24B /* Products */,
+				06D26EE40170000805D1E7F9 /* Pods */,
+				70732A61352AA15818F68498 /* Frameworks */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0E1C8F562158C6D7005EF24B /* MSRotationTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C8F6D2158C74B005EF24B /* PrefixHeader.pch */,
+				0E1C8F6A2158C74A005EF24B /* Header.h */,
+				0E1C8F672158C71E005EF24B /* MSTabbarViewController.h */,
+				0E1C8F682158C71E005EF24B /* MSTabbarViewController.m */,
+				0E1C8F652158C719005EF24B /* CenterPresentController.h */,
+				0E1C8F642158C719005EF24B /* CenterPresentController.m */,
+				0EB5435F24896B7C001F8951 /* MSTabbarDataManager.h */,
+			        0EB5436024896B7C001F8951 /* MSTabbarDataManager.m */,
+				0E1C8F582158C6FF005EF24B /* Item.h */,
+				0E1C8F572158C6FF005EF24B /* Item.m */,
+				0E1C8F5A2158C6FF005EF24B /* Tabbar.h */,
+				0E1C8F592158C6FF005EF24B /* Tabbar.m */,
+				0E1C8F5D2158C707005EF24B /* Tool */,
+				0E1C8F2A2158C6A9005EF24B /* Resource */,
+			);
+			path = MSRotationTabBar;
+			sourceTree = "<group>";
+		};
+		0E1C8F5D2158C707005EF24B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C8F612158C707005EF24B /* Tool.h */,
+				0E1C8F5E2158C707005EF24B /* Tool.m */,
+				0E1C8F5F2158C707005EF24B /* UIView+Extension.h */,
+				0E1C8F632158C707005EF24B /* UIView+Extension.m */,
+				0E1C8F622158C707005EF24B /* UIViewController+Extension.h */,
+				0E1C8F602158C707005EF24B /* UIViewController+Extension.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		70732A61352AA15818F68498 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58D29B5723145A29DD45A480 /* libPods-MSRotationTabBarDEMO.a */,
+			);
+			name = Frameworks;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E1C8F102158C687005EF24B /* MSRotationTabBarDEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1C8F272158C687005EF24B /* Build configuration list for PBXNativeTarget "MSRotationTabBarDEMO" */;
+			buildPhases = (
+				F68F31073DA61F34BAFA62F6 /* [CP] Check Pods Manifest.lock */,
+				0E1C8F0D2158C687005EF24B /* Sources */,
+				0E1C8F0E2158C687005EF24B /* Frameworks */,
+				0E1C8F0F2158C687005EF24B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSRotationTabBarDEMO;
+			productName = MSRotationTabBar;
+			productReference = 0E1C8F112158C687005EF24B /* MSRotationTabBarDEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E1C8F092158C687005EF24B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = JZJ;
+				TargetAttributes = {
+					0E1C8F102158C687005EF24B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 0E1C8F0C2158C687005EF24B /* Build configuration list for PBXProject "MSRotationTabBarDEMO" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E1C8F082158C687005EF24B;
+			productRefGroup = 0E1C8F122158C687005EF24B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E1C8F102158C687005EF24B /* MSRotationTabBarDEMO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E1C8F0F2158C687005EF24B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1C8F4D2158C6A9005EF24B /* tabbar_select_1@2x.png in Resources */,
+				0E1C8F4E2158C6A9005EF24B /* tabbar_select_3@3x.png in Resources */,
+				0E1C8F702158C917005EF24B /* Assets.xcassets in Resources */,
+				0E1C8F472158C6A9005EF24B /* tabbar_0_night_H_24x24_@2x.png in Resources */,
+				0E1C8F532158C6A9005EF24B /* tabbar_unselect_4@2x.png in Resources */,
+				0E1C8F482158C6A9005EF24B /* tabbar_0_day_N_24x24_@2x.png in Resources */,
+				0E1C8F412158C6A9005EF24B /* tabbar_select_2@3x.png in Resources */,
+				0E1C8F4F2158C6A9005EF24B /* tabbar_select_3@2x.png in Resources */,
+				0E1C8F502158C6A9005EF24B /* tabbar_select_1@3x.png in Resources */,
+				0E1C8F432158C6A9005EF24B /* tabbar_unselect_3@3x.png in Resources */,
+				0E1C8F4A2158C6A9005EF24B /* tabbar_select_4@2x.png in Resources */,
+				0E1C8F452158C6A9005EF24B /* tabbar_unselect_1@3x.png in Resources */,
+				0E1C8F4C2158C6A9005EF24B /* tabbar_unselect_2@3x.png in Resources */,
+				0E1C8F402158C6A9005EF24B /* tabbar_0_night_H_24x24_@3x.png in Resources */,
+				0E1C8F4B2158C6A9005EF24B /* tabbar_0_day_N_24x24_@3x.png in Resources */,
+				0E1C8F422158C6A9005EF24B /* tabbar_unselect_1@2x.png in Resources */,
+				0E1C8F522158C6A9005EF24B /* tabbar_unselect_4@3x.png in Resources */,
+				0E1C8F512158C6A9005EF24B /* tabbar_unselect_2@2x.png in Resources */,
+				0E1C8F442158C6A9005EF24B /* tabbar_unselect_3@2x.png in Resources */,
+				0E1C8F492158C6A9005EF24B /* tabbar_select_4@3x.png in Resources */,
+				0E1C8F462158C6A9005EF24B /* tabbar_select_2@2x.png in Resources */,
+				0E1C8F542158C6A9005EF24B /* 44.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F68F31073DA61F34BAFA62F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSRotationTabBarDEMO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E1C8F0D2158C687005EF24B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1C8F712158CB35005EF24B /* ViewController.m in Sources */,
+				0E1C8F722158CB35005EF24B /* MSTabbarViewController.m in Sources */,
+				0E1C8F732158CB35005EF24B /* CenterPresentController.m in Sources */,
+				0E1C8F742158CB35005EF24B /* Item.m in Sources */,
+				0E1C8F752158CB35005EF24B /* Tabbar.m in Sources */,
+				0E1C8F762158CB35005EF24B /* Tool.m in Sources */,
+				0E1C8F772158CB35005EF24B /* UIView+Extension.m in Sources */,
+				0E1C8F782158CB35005EF24B /* UIViewController+Extension.m in Sources */,
+				0E1C8F792158CB35005EF24B /* AppDelegate.m in Sources */,
+                                0EB5436124896B7C001F8951 /* MSTabbarDataManager.m in Sources */,
+				0E1C8F7A2158CB35005EF24B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E1C8F252158C687005EF24B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E1C8F262158C687005EF24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E1C8F282158C687005EF24B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9958E23CD8D1E4823B33FA7 /* Pods-MSRotationTabBarDEMO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MSRotationTabBarDEMO/MSRotationTabBar/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MSRotationTabBarDEMO/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jzj.MSRotationTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0E1C8F292158C687005EF24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2B0699262E4E4B56C26C36 /* Pods-MSRotationTabBarDEMO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MSRotationTabBarDEMO/MSRotationTabBar/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MSRotationTabBarDEMO/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jzj.MSRotationTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E1C8F0C2158C687005EF24B /* Build configuration list for PBXProject "MSRotationTabBarDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1C8F252158C687005EF24B /* Debug */,
+				0E1C8F262158C687005EF24B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1C8F272158C687005EF24B /* Build configuration list for PBXNativeTarget "MSRotationTabBarDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1C8F282158C687005EF24B /* Debug */,
+				0E1C8F292158C687005EF24B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E1C8F092158C687005EF24B /* Project object */;
+}

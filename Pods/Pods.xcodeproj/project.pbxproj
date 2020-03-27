@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271B79FEFFCFE3FC3AB2497E2DF4A84A /* MSBlockButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C505EC5C8AC3CC49EDE2016E4C990BE /* MSBlockButton-dummy.m */; };
+		6F7E2B0BB6DEDCE6DC8B805FB2207EF3 /* UIButton+MSBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B2C591071D412C3689D473CB0E9194 /* UIButton+MSBlocks.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A9882A7888EDACD62D81574BB3D6CD22 /* MSBlockButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D19522D8082E7C7C8EB9934E28843A /* MSBlockButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6455110C8307C64B16195939DCAE5F0 /* Pods-MSRotationTabBarDEMO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A4B883684CD9653C37EDB91E816F28 /* Pods-MSRotationTabBarDEMO-dummy.m */; };
+		F1DCD93EC901EE2E6435D06E6DE4F48C /* UIButton+MSBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE5E348C43438CA70F842C97246AAFC /* UIButton+MSBlocks.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A430A8D447300E79D8AE25D2A02ED76B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2420CC20EE73DF911AA5C13181BA540E;
+			remoteInfo = MSBlockButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FBA8F5D01D218FFBE017E5F9EB3B98 /* Pods-MSRotationTabBarDEMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSRotationTabBarDEMO.debug.xcconfig"; sourceTree = "<group>"; };
+		1EE1F486120C367698E2B09459127191 /* MSBlockButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSBlockButton.xcconfig; sourceTree = "<group>"; };
+		332E7333A615001CEE1E1B15B0C553A9 /* MSBlockButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSBlockButton-prefix.pch"; sourceTree = "<group>"; };
+		3CA119F75B0BC5AD91547521C7001501 /* libMSBlockButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSBlockButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2A49A9615FC4E3917807B32327CD44 /* Pods-MSRotationTabBarDEMO-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSRotationTabBarDEMO-frameworks.sh"; sourceTree = "<group>"; };
+		436C6A9B5CB5D0D0D484C226C1BDA9E2 /* libPods-MSRotationTabBarDEMO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSRotationTabBarDEMO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6814F3568A28A557139EBBDDED9239B7 /* Pods-MSRotationTabBarDEMO-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSRotationTabBarDEMO-resources.sh"; sourceTree = "<group>"; };
+		6C505EC5C8AC3CC49EDE2016E4C990BE /* MSBlockButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSBlockButton-dummy.m"; sourceTree = "<group>"; };
+		6FE5E348C43438CA70F842C97246AAFC /* UIButton+MSBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+MSBlocks.m"; path = "MSBlockButton/UIButton+MSBlocks.m"; sourceTree = "<group>"; };
+		8148D1DC8B191D4BEC79F1E627083815 /* Pods-MSRotationTabBarDEMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSRotationTabBarDEMO.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B133A29A1934BACB584C7607886292D1 /* Pods-MSRotationTabBarDEMO-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSRotationTabBarDEMO-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8D19522D8082E7C7C8EB9934E28843A /* MSBlockButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSBlockButton.h; path = MSBlockButton/MSBlockButton.h; sourceTree = "<group>"; };
+		E2B2C591071D412C3689D473CB0E9194 /* UIButton+MSBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+MSBlocks.h"; path = "MSBlockButton/UIButton+MSBlocks.h"; sourceTree = "<group>"; };
+		F2A4B883684CD9653C37EDB91E816F28 /* Pods-MSRotationTabBarDEMO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSRotationTabBarDEMO-dummy.m"; sourceTree = "<group>"; };
+		FEE74562D07889800F671C868F94464A /* Pods-MSRotationTabBarDEMO-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSRotationTabBarDEMO-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0898F0C66B15F58643167DE06E647BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8EBEDFF43398595FEB3236F5153CD0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FCF5F819BFB1563E95DA3D84EA1CCDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CA119F75B0BC5AD91547521C7001501 /* libMSBlockButton.a */,
+				436C6A9B5CB5D0D0D484C226C1BDA9E2 /* libPods-MSRotationTabBarDEMO.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2722984BE127D7E267B10FA0C8A156FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73ABFEF64D98190EE8CD0006AB96430D /* MSBlockButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A50D47F6F7F6948042A11B80C1491FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EE1F486120C367698E2B09459127191 /* MSBlockButton.xcconfig */,
+				6C505EC5C8AC3CC49EDE2016E4C990BE /* MSBlockButton-dummy.m */,
+				332E7333A615001CEE1E1B15B0C553A9 /* MSBlockButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MSBlockButton";
+			sourceTree = "<group>";
+		};
+		72FAD29AF1606BCE0070EED9879A2D07 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3DE08032412D3766196BC4EEBC28CB0 /* Pods-MSRotationTabBarDEMO */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		73ABFEF64D98190EE8CD0006AB96430D /* MSBlockButton */ = {
+			isa = PBXGroup;
+			children = (
+				D8D19522D8082E7C7C8EB9934E28843A /* MSBlockButton.h */,
+				E2B2C591071D412C3689D473CB0E9194 /* UIButton+MSBlocks.h */,
+				6FE5E348C43438CA70F842C97246AAFC /* UIButton+MSBlocks.m */,
+				5A50D47F6F7F6948042A11B80C1491FF /* Support Files */,
+			);
+			path = MSBlockButton;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				2722984BE127D7E267B10FA0C8A156FC /* Pods */,
+				0FCF5F819BFB1563E95DA3D84EA1CCDF /* Products */,
+				72FAD29AF1606BCE0070EED9879A2D07 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D3DE08032412D3766196BC4EEBC28CB0 /* Pods-MSRotationTabBarDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				B133A29A1934BACB584C7607886292D1 /* Pods-MSRotationTabBarDEMO-acknowledgements.markdown */,
+				FEE74562D07889800F671C868F94464A /* Pods-MSRotationTabBarDEMO-acknowledgements.plist */,
+				F2A4B883684CD9653C37EDB91E816F28 /* Pods-MSRotationTabBarDEMO-dummy.m */,
+				3D2A49A9615FC4E3917807B32327CD44 /* Pods-MSRotationTabBarDEMO-frameworks.sh */,
+				6814F3568A28A557139EBBDDED9239B7 /* Pods-MSRotationTabBarDEMO-resources.sh */,
+				05FBA8F5D01D218FFBE017E5F9EB3B98 /* Pods-MSRotationTabBarDEMO.debug.xcconfig */,
+				8148D1DC8B191D4BEC79F1E627083815 /* Pods-MSRotationTabBarDEMO.release.xcconfig */,
+			);
+			name = "Pods-MSRotationTabBarDEMO";
+			path = "Target Support Files/Pods-MSRotationTabBarDEMO";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68E97A2A547523B70B847156B43EC780 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9882A7888EDACD62D81574BB3D6CD22 /* MSBlockButton.h in Headers */,
+				6F7E2B0BB6DEDCE6DC8B805FB2207EF3 /* UIButton+MSBlocks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A7CA36D1C954F812DA449FEF7DB3EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2420CC20EE73DF911AA5C13181BA540E /* MSBlockButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B0B0576EDDFE9D1CE31D4D085DBD646 /* Build configuration list for PBXNativeTarget "MSBlockButton" */;
+			buildPhases = (
+				68E97A2A547523B70B847156B43EC780 /* Headers */,
+				4D35C14F5FC0728813DE8A5C109F5DC5 /* Sources */,
+				A8EBEDFF43398595FEB3236F5153CD0D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSBlockButton;
+			productName = MSBlockButton;
+			productReference = 3CA119F75B0BC5AD91547521C7001501 /* libMSBlockButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E06D1CE4330166B569C5A26656F14588 /* Pods-MSRotationTabBarDEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78479828C6863C70B13F4AA54726CDFA /* Build configuration list for PBXNativeTarget "Pods-MSRotationTabBarDEMO" */;
+			buildPhases = (
+				92A7CA36D1C954F812DA449FEF7DB3EB /* Headers */,
+				FFA37728C1B10AF44A823066E976EE80 /* Sources */,
+				0898F0C66B15F58643167DE06E647BFC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9F8B01004BFC875051E477075F982F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-MSRotationTabBarDEMO";
+			productName = "Pods-MSRotationTabBarDEMO";
+			productReference = 436C6A9B5CB5D0D0D484C226C1BDA9E2 /* libPods-MSRotationTabBarDEMO.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0FCF5F819BFB1563E95DA3D84EA1CCDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2420CC20EE73DF911AA5C13181BA540E /* MSBlockButton */,
+				E06D1CE4330166B569C5A26656F14588 /* Pods-MSRotationTabBarDEMO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D35C14F5FC0728813DE8A5C109F5DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271B79FEFFCFE3FC3AB2497E2DF4A84A /* MSBlockButton-dummy.m in Sources */,
+				F1DCD93EC901EE2E6435D06E6DE4F48C /* UIButton+MSBlocks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA37728C1B10AF44A823066E976EE80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6455110C8307C64B16195939DCAE5F0 /* Pods-MSRotationTabBarDEMO-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9F8B01004BFC875051E477075F982F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSBlockButton;
+			target = 2420CC20EE73DF911AA5C13181BA540E /* MSBlockButton */;
+			targetProxy = A430A8D447300E79D8AE25D2A02ED76B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		469A8FC6CC38C84949DD9CD7F302B1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05FBA8F5D01D218FFBE017E5F9EB3B98 /* Pods-MSRotationTabBarDEMO.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E226FB425A8162429E27308BF78CB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE1F486120C367698E2B09459127191 /* MSBlockButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MSBlockButton/MSBlockButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MSBlockButton;
+				PRODUCT_NAME = MSBlockButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		704076628A33C7080D9167229766965F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE1F486120C367698E2B09459127191 /* MSBlockButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MSBlockButton/MSBlockButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MSBlockButton;
+				PRODUCT_NAME = MSBlockButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		872B93308B7A5038EF49B69C36BE1983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8148D1DC8B191D4BEC79F1E627083815 /* Pods-MSRotationTabBarDEMO.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90801340DB97DA2D6643DE3ECC36F95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A610193BC95AA1FBE8D125DF9AD72C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A610193BC95AA1FBE8D125DF9AD72C9D /* Debug */,
+				90801340DB97DA2D6643DE3ECC36F95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B0B0576EDDFE9D1CE31D4D085DBD646 /* Build configuration list for PBXNativeTarget "MSBlockButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E226FB425A8162429E27308BF78CB5A /* Debug */,
+				704076628A33C7080D9167229766965F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78479828C6863C70B13F4AA54726CDFA /* Build configuration list for PBXNativeTarget "Pods-MSRotationTabBarDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469A8FC6CC38C84949DD9CD7F302B1BD /* Debug */,
+				872B93308B7A5038EF49B69C36BE1983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

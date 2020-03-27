@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  DEMO
+//
+//  Created by J on 16/3/8.
+//  Copyright © 2016年 J. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+Extension.h"
+#import "UIViewController+Extension.h"
+#import "Tool.h"
+
+#define   kBeginTag  10000
+#define   kTopHeight (49+64)
+#define   kWidth     [UIScreen mainScreen].bounds.size.width
+#define   kHeight    [UIScreen mainScreen].bounds.size.height
+
+static NSInteger const kCenterItemTag      = 10002;
+static NSInteger const kbadgeViewTag       = 20000;
+static CGFloat   const kDuration           = 0.5;
+static NSString* const kCenterIcon         = @"tabbar_select_2.png";
+static NSString* const kAnimationKey       = @"transform.rotation.y";
+static NSString* const kLayoutSubviewsKey  = @"UITabBarButton";
+
+
+#endif /* PrefixHeader_pch */
