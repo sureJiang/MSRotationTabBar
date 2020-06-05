@@ -185,8 +185,7 @@ static NSString* const kCenterIcon    = @"tabbar_select_2.png";
     
     [item handleEvent:UIControlEventTouchDown withBlock:^(UIButton *sender) {
         
-        [NSObject cancelPreviousPerformRequestsWithTarget:self];
-
+        [self.class cancelPreviousPerformRequestsWithTarget:self];
         [self performSelector:@selector(performSelecte:) withObject:sender afterDelay:0.2];
         
     }];
