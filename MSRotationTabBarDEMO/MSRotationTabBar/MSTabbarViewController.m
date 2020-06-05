@@ -11,9 +11,11 @@
 #import "MSTabbarViewController.h"
 #import "CenterPresentController.h"
 
+#import "MSTabbarDataManager.h"
 #import "Tabbar.h"
 
 @interface MSTabbarViewController ()<UIWebViewDelegate>
+@property(nonatomic,strong)MSTabbarDataManager * dataManager;
 @end
 
 @implementation MSTabbarViewController
@@ -25,30 +27,15 @@
 }
 
 - (void)addChildViewController{
-  NSArray* titleArray           = @[@"首页",
-                                    @"论坛",
-                                    @"易计划",
-                                    @"聊天",
-                                    @"我的"];
+ 
     
-   NSArray* imageArray          = @[@"tabbar_unselect_0",
-                                    @"tabbar_unselect_1",
-                                    @"",
-                                    @"tabbar_unselect_3",
-                                    @"tabbar_unselect_4"];
-    
-    NSArray* imageArraySelected = @[@"tabbar_select_0",
-                                    @"tabbar_select_1",
-                                    @"",
-                                    @"tabbar_select_3",
-                                    @"tabbar_select_4"];
     NSInteger i = 0;
-    for (NSString* title in titleArray) {
+    for (NSString* title in self.dataManager.titleArray) {
         UIViewController* vc = [UIViewController new];
         vc.tabBarItem = [UITabBarItem new];
         vc.title = title;
-        vc.tabBarItem.image = [UIImage imageNamed:imageArray[i]];
-        vc.tabBarItem.selectedImage = [UIImage imageNamed:imageArraySelected[i]];
+        vc.tabBarItem.image = [UIImage imageNamed:self.dataManager.imageArray[i]];
+        vc.tabBarItem.selectedImage = [UIImage imageNamed:self.dataManager.imageArraySelected[i]];
         [self addChildViewController:vc];
         i++;
     }
@@ -62,6 +49,15 @@
          [self presentViewController:[CenterPresentController new] animated:YES completion:nil];
     }];
      [tabbar addTarbbarItemWithViewControllers:self.childViewControllers];
+}
+
+#pragma mark --lazy
+
+-(MSTabbarDataManager *)dataManager{
+        if(!_dataManager){
+            _dataManager = [MSTabbarDataManager new];
+        }
+        return _dataManager;;
 }
 
 @end
