@@ -152,14 +152,14 @@ static NSString* const kCenterIcon    = @"tabbar_select_2.png";
         button.y = -12;
         
         [self addSubview:button];
-        
+        __weak __typeof(&*self)weakSelf = self;
         [button handleTouchUpInsideEventWithBlock:^(UIButton *sender) {
-            if (self.selectCenterItemBlock) {
-                self.selectCenterItemBlock();
+            if (weakSelf.selectCenterItemBlock) {
+                weakSelf.selectCenterItemBlock();
             }
             
-            if([self.selectDelegate respondsToSelector:@selector(tabBarDidSelectCenterItem:)]){
-                [self.selectDelegate tabBarDidSelectCenterItem:self];
+            if([weakSelf.selectDelegate respondsToSelector:@selector(tabBarDidSelectCenterItem:)]){
+                [weakSelf.selectDelegate tabBarDidSelectCenterItem:self];
             }
         }];
         _centerButton = button;
