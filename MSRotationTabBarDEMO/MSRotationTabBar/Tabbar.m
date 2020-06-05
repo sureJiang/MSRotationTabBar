@@ -15,9 +15,6 @@
 - (void)rotation;
 @end
 
-static NSInteger const kCenterItemTag = 10002;
-static CGFloat   const kDuration      = 0.5;
-static NSString* const kCenterIcon    = @"tabbar_select_2.png";
 
 @interface Tabbar()
 @property(nonatomic,assign) NSUInteger      index;
@@ -91,7 +88,7 @@ static NSString* const kCenterIcon    = @"tabbar_select_2.png";
         
         [self bringSubviewToFront:self.centerButton];
         
-        if ([badgeView isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
+        if ([badgeView isKindOfClass:NSClassFromString(kLayoutSubviewsKey)]) {
             badgeView.hidden = YES;
         }
     }
@@ -105,7 +102,7 @@ static NSString* const kCenterIcon    = @"tabbar_select_2.png";
     badgeView.hidden=!badgeView.text.length;
     badgeView.textAlignment = NSTextAlignmentCenter;
     badgeView.textColor = [UIColor whiteColor];
-    badgeView.tag = 20000+i;
+    badgeView.tag = kbadgeViewTag+i;
     badgeView.font = [UIFont systemFontOfSize:7];
     badgeView.size = CGSizeMake(15, 15);
     badgeView.origin = CGPointMake(CGRectGetMaxX(item.imageView.frame)-badgeView.width*0.5, item.imageView.y-badgeView.height*0.3);
@@ -233,7 +230,7 @@ static NSString* const kCenterIcon    = @"tabbar_select_2.png";
 - (void)rotation{
     
     CABasicAnimation* rotationAnimation;
-    rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.y"];
+    rotationAnimation = [CABasicAnimation animationWithKeyPath:kAnimationKey];
     rotationAnimation.toValue = [NSNumber numberWithFloat: M_PI * 2.0 ];
     rotationAnimation.duration = kDuration;
     
