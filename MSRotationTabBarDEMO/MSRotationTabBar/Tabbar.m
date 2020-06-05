@@ -205,14 +205,15 @@ static NSString* const kCenterIcon    = @"tabbar_select_2.png";
     sender.badgeView.hidden = YES;
     NSInteger index = sender.tag-kBeginTag;
     
-
-    
-    
+   
         UIWindow *keyWindow = [[[UIApplication sharedApplication] delegate] window];
         UITabBarController *tabBarController = (UITabBarController *)keyWindow.rootViewController;
         if (tabBarController) {
             tabBarController.selectedIndex = index;
         }
+
+    
+    
     
     [self addAnimation:sender];
 }
