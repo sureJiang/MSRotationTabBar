@@ -39,6 +39,7 @@
 		0E1C8F782158CB35005EF24B /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C8F602158C707005EF24B /* UIViewController+Extension.m */; };
 		0E1C8F792158CB35005EF24B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C8F152158C687005EF24B /* AppDelegate.m */; };
 		0E1C8F7A2158CB35005EF24B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C8F232158C687005EF24B /* main.m */; };
+                0EB5436124896B7C001F8951 /* MSTabbarDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5436024896B7C001F8951 /* MSTabbarDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,8 @@
 		0E1C8F6A2158C74A005EF24B /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		0E1C8F6D2158C74B005EF24B /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0E1C8F6F2158C917005EF24B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EB5435F24896B7C001F8951 /* MSTabbarDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTabbarDataManager.h; sourceTree = "<group>"; };
+	        0EB5436024896B7C001F8951 /* MSTabbarDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTabbarDataManager.m; sourceTree = "<group>"; };
 		58D29B5723145A29DD45A480 /* libPods-MSRotationTabBarDEMO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSRotationTabBarDEMO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9958E23CD8D1E4823B33FA7 /* Pods-MSRotationTabBarDEMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSRotationTabBarDEMO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSRotationTabBarDEMO/Pods-MSRotationTabBarDEMO.debug.xcconfig"; sourceTree = "<group>"; };
 		FF2B0699262E4E4B56C26C36 /* Pods-MSRotationTabBarDEMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSRotationTabBarDEMO.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSRotationTabBarDEMO/Pods-MSRotationTabBarDEMO.release.xcconfig"; sourceTree = "<group>"; };
@@ -192,6 +195,8 @@
 				0E1C8F682158C71E005EF24B /* MSTabbarViewController.m */,
 				0E1C8F652158C719005EF24B /* CenterPresentController.h */,
 				0E1C8F642158C719005EF24B /* CenterPresentController.m */,
+				0EB5435F24896B7C001F8951 /* MSTabbarDataManager.h */,
+			        0EB5436024896B7C001F8951 /* MSTabbarDataManager.m */,
 				0E1C8F582158C6FF005EF24B /* Item.h */,
 				0E1C8F572158C6FF005EF24B /* Item.m */,
 				0E1C8F5A2158C6FF005EF24B /* Tabbar.h */,
@@ -345,6 +350,7 @@
 				0E1C8F772158CB35005EF24B /* UIView+Extension.m in Sources */,
 				0E1C8F782158CB35005EF24B /* UIViewController+Extension.m in Sources */,
 				0E1C8F792158CB35005EF24B /* AppDelegate.m in Sources */,
+                                0EB5436124896B7C001F8951 /* MSTabbarDataManager.m in Sources */,
 				0E1C8F7A2158CB35005EF24B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
